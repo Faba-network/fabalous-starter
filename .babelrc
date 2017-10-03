@@ -1,0 +1,14 @@
+{
+  "env": {
+    "development": {
+      "presets": [["es2015", { "loose" : true }]],
+      "plugins": ["react-hot-loader/babel"]
+    },
+    "production": {
+      "presets": [
+        "es2015", "babili",
+        "react-optimize"
+      ]
+    }
+  }
+}
