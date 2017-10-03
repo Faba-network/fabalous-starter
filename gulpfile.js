@@ -5,7 +5,10 @@ __workDir = __dirname;
 __devTool = 'cheap-source-map';
 __host = '127.0.0.1';
 __port = 8090;
-__gitHash = git.short();
+try {
+    __gitHash = git.short();
+} catch(e){}
+
 __alias = {
     "assets":__workDir + "/src/common/assets/",
     "src":__workDir + "/src/"
