@@ -6,6 +6,7 @@ import {forceRenderStyles} from "typestyle";
 import FabaApiConnection from "@fabalous/runtime-web/transport/FabaApiConnection";
 import FabaCore from "@fabalous/core/FabaCore";
 import StoreWeb from "./common/store/StoreWeb";
+import * as React from 'react';
 
 declare const window:any;
 
@@ -16,7 +17,7 @@ if (process.env.NODE_ENV == "development"){
 class A_Web extends FabaRuntimeWeb{
     constructor(store, module){
         FabaCore.reset();
-
+        console.log(React.version);
         if (window.init != true){
             //normalize();
             //setupPage('#container');
