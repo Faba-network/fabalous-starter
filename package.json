@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Faba-network/fabalous-starter#readme",
   "devDependencies": {
-    "@fabalous/core": "^0.5.20",
+    "@fabalous/core": "^0.5.21",
     "@fabalous/runtime-web": "^0.2.86",
     "babel-preset-es2015": "^6.24.1",
     "git-rev-sync": "^1.9.1",
