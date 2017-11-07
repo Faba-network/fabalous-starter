@@ -26,6 +26,6 @@
     "typestyle": "^1.5.1"
   },
   "dependencies": {
-    "@fabalous/runtime-node": "0.0.47"
+    "@fabalous/runtime-node": "0.0.48"
   }
 }
